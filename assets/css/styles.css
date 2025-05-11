@@ -6,31 +6,26 @@ padding: 0;
 
 .mensajeria{
 display: flex;
+
 }
 
 .contactos{
 width: 20%;
-border: solid black 1px;
+height: 597px;
+border: solid red 1px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
-.icon-color{
-color: #a6acaf;
-}
 
-.iconos_contacto{
-margin-top: 5%;
-}
-
-.chat{
-border: green solid 3px;
-width: 80%;
-justify-content: center;
-text-align: center;
-
-}
 
 .contacto_primario {
 display: flex;
+gap: 15px;
+padding-left:5%;
+padding-right: 5%;
+
 }
 .contacto_primario > img{
 border-radius: 50%;}
@@ -41,3 +36,55 @@ display: flex;
 width: 100%;
 justify-content: space-between;
 }
+
+.icon-color{
+color: #a6acaf;
+}
+
+.iconos_contacto{
+margin-top: 5%;
+}
+
+.nuevo_chat{
+display: flex;
+border: black solid 2px;
+width: 100%;
+align-items: center;
+justify-content: center;
+height: 60px;
+}
+
+.nuevo_chat> button{
+width: 150px;
+height: 30px;
+color: white;
+background-color: #A491D2;
+border: none;
+}
+
+.contacto{
+display: flex;
+padding: 5%;
+width: 89%;
+height: 30px;
+border: solid black 1px;
+gap: 15px;
+align-items: center;
+}
+
+.contacto>img{
+border-radius: 50%;}
+
+
+
+.chat{
+background-color: #f2f3f4 ;
+display: flex;
+border: green solid 3px;
+width: 80%;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+
